@@ -18,8 +18,8 @@ The configuration is stored in a file called `.namecheap-cli` in the users home 
 A configuration file is created when you try to use a command that requires it. You can update the config manually by editing the json, or use the config commands.
 
 ```
-# namecheap-cli config set username J4Wx
-# namecheap-cli config set apiKey someApiKeyStringHere
+# namecheap-cli config:set username J4Wx
+# namecheap-cli config:set apiKey someApiKeyStringHere
 ```
 
 Should do the trick!
